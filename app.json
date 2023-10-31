@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CC NETWORK",
+    "description": "CC NETWORK: Community Cultivation Streaming Network",
+    "scheme": "ccnet",
+    "slug": "ccn-app",
+    "privacy": "public",
+    "version": "0.0.2",
+    "platforms": ["android", "ios", "web"],
+    "githubUrl": "https://github.com/Wolf-Quiteque/ccn-app.git",
+    "orientation": "portrait",
+    "primaryColor": "#000000",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#000000",
+      "image": "src/assets/splassh.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/8690ca07-969e-4b14-97a7-60265191dc71"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "versionCode": 2
+    },
+    "ios": {
+      "buildNumber": "0.0.2",
+      "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8690ca07-969e-4b14-97a7-60265191dc71"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
